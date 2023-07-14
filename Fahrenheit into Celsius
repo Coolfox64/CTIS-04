@@ -1,0 +1,10 @@
+def convert_c(f):
+f = (f-32)×5/9 return round(f, 2)
+temp = float (input( "Enter temperature in
+fahrenheit: "))
+print (f"{convert_c(temp)3°C" )
+celsius = eval (input ( "What is the Celsius
+Temperature?"))
+fahrenheit = 9/5 * celsius + 32
+print ("The temperature is", fahrenheit, "degrees in Fahrenheit.")
+print (fahrenheit, "_", celsius)
